@@ -48,7 +48,11 @@ body {
 .site-nav .link:hover,
 .site-nav .link:focus,
 .contact .link:hover,
-.contact .link:focus {
+.contact .link:focus,
+.footer-contact .link:hover,
+.footer-contact .link:focus,
+.footer-contact .adress:focus,
+.footer-contact .adress:hover {
   color: var(--accent-color);
 }
 
@@ -83,4 +87,55 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+/* Features & Team */
+
+.features-list .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.team .title,
+.team .description {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team .title {
+  font-weight: 500;
+}
+
+/* Button */
+
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+/* Footer */
+
+.footer-contact .link,
+.footer-contact .adress {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.footer-contact .adress {
+  color: var(--primary-white-color);
+}
+
+.footer-contact .link {
+  color: rgba(255, 255, 255, 0.6);
 }
