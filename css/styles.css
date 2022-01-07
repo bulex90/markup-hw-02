@@ -6,6 +6,10 @@
    --secondary-white-color: #f5f4fa;
 }
 
+body {
+   background-color: var(--primary-white-color);
+}
+
 .dis-none {
    display: none;
 }
